@@ -153,7 +153,7 @@
   /* ---------- hero ---------- */
   .hero{
     background:
-      repeating-linear-gradient(to bottom, transparent 0 39px, var(--on-deep-rule) 39px 40px),
+      /* repeating-linear-gradient(to bottom, transparent 0 39px, var(--on-deep-rule) 39px 40px), */
       linear-gradient(180deg, var(--deep-2), var(--deep));
     color:var(--on-deep);
     border-bottom:1px solid var(--on-deep-rule);
