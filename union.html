@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Union Care Consult" name="description" />
+    <meta
+        content="HTML5, CSS3, JavaScript, union care consult, care home, home care, nigeria"
+        name="keywords" />
+    <meta content="Union care consult" name="owner" />
+
+    <meta content="Kayode Agboola" name="author" />
+
+    <title>Union Care Consult</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="android-chrome-icon" href="img/android-chrome-192x192.png" />
+    <link rel="android-chrome-icon" href="img/android-chrome-512x512.png" />
+    <link rel="manifest" href="img/site.webmanifest" />
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link href="css/union.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ======= Modal ======= -->
+    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header mx-3">
+              <h5 class="modal-title" id="exampleModalLabel">Contact Union Care Consult</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form name="contact" netlify>
+                <div class="modal-body mx-3">
+                    <div class="mb-3">
+                        <label for="name" class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required 
+                        pattern="^(?:\S.{1,18}\S)?$">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">Email Address:</label>
+                        <input type="text" class="form-control" id="email" name="email"
+                        pattern="^([a-z\d_\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="col-form-label">Phone Number:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" name="message" id="message-text" minlength="5"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer mx-3">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn helpline">Send message</button>
+                </div>
+            </form>
+          </div>
+        </div>
+    </div>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light py-2">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid logo" src="img/logo.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav" id="linkCont">
+                        <li class="nav-item mt-2 mx-3">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mt-2 mx-3">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item mt-2 mx-3">
+                            <a class="nav-link " href="#testimonials">Blog</a>
+                        </li>
+                        <li class="nav-item mt-2 mx-3">
+                            <a class="nav-link" href="#onboarding">Onboarding</a>
+                        </li>
+                        <li class="nav-item mt-2 mx-3">
+                            <a class="nav-link px-4 py-2 helpline" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ======= Main Content ======= -->
+    <main>
+        <section id="top">
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-md-6">
+                        <br><br><br>
+                        <p class="ab text-uppercase fw-normal">about us</p>
+                        <div class="line-footer"></div><br>
+                        <h1 class="text-uppercase main-text">your <span class="health">health</span><br> is our priority</h1>
+
+                        <p class="info">Our goal is to provide individualised Health services at the convenience of 
+                            the clients Home, quality health service rendered by highly skilled and 
+                            experienced doctors, nurses, health aides and physiotherapists in the home 
+                            environment of the client. Care provided defies boundaries set by age, race, sex and religion.
+                            <br><br>
+                            A trusted provider of Home Health Services that are structured to meet your personal health 
+                            needs, time consciously and efficiently. We are dedicated to meeting clients, Physicians 
+                            and Patients needs in providing comprehensive home health care by highly trained and 
+                            qualified Health Personnel while maintaining the highest standard of care, integrity and dignity.
+                        </p><br>
+
+                        <div class="d-flex ">
+                            <a href="https://bit.ly/36hjkEM" class="btn arrow">
+                                Book Services <img src="img/arrow.svg" width="36" height="36" alt="arrow-right" />
+                            </a>
+                            
+                            <a noopener noreferrer class="btn px-5 py-3 mr-4 play" href="#"><i class="fa fa-play-circle"></i> Play video
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-flex col-md-6 mt-5 justify-content-center">
+                        <img class="img-fluid mt-5" src="img/care2.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="services">
+            <div class="container">
+                <div class="chart-titles text-center ">
+                    <div>
+                        <h2>We care about your health</h2>
+                        <div class="line3 "></div>
+                    </div>
+
+                    <p class="det">
+                        We have trained and qualified care givers that specialized in management 
+                        of conditions such as dementia, diabetes, hypertension, arthritis and other chronic 
+                        disease conditions that might plague aged people. 
+                    </p><br>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="card col-sm-12 col-md-4 m-3 shadow" style="width: 14rem;">
+                        <img src="img/nurse.png" class="card-img-top mt-2 rounded" alt="...">
+                        <div class="card-body">
+                            <p class="card-title p-0">Skilled Nursing Services</p>
+                            <ul class="card-text px-1">
+                                <li>Wound care</li>
+                                <li>Care of the aged/elderly</li>
+                                <li>Care of the terminally ill (oncology)</li>
+                                <li>Care of the debilitated/Unconscious</li>
+                                <li>Home based post of care</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-12 col-md-4 m-3 shadow" style="width: 14rem;">
+                        <img src="img/physio.png" class="mt-2 card-img-top rounded" alt="...">
+                        <div class="card-body">
+                            <p class="card-title p-0 mx-0">Physiotherapy</p>
+                            <ul class="card-text px-1">
+                                <li>Post Orthopaedic Surgery care</li>
+                                <li>Rehabilitation</li>
+                                <li>Prosthetic Integration</li>
+                                <li>Administration of Physiotherapy</li>
+                                <li>Home laboratory services
+                                (collection of samples trom home
+                                for routine Tests)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-12 col-md-4 m-3 shadow" style="width: 14rem;">
+                        <img src="img/prescription.png" class="mt-2 card-img-top rounded" alt="...">
+                        <div class="card-body">
+                            <p class="card-title p-0 mx-0">Health Personnel Recruitment</p>
+                            <ul class="card-text px-0">
+                                <li>Nursing staff recruitment</li>
+                                <li>Personalized recruitment</li>
+                                <li>Health care aide recrultment</li>
+                                <li>Caregiver recruitment</li>
+                                <li>Supervision of agency</li>
+                                <li>procured personnel</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card col-sm-12 col-md-4 m-3 shadow" style="width: 14rem;">
+                        <img src="img/hcw.png" class="mt-2 card-img-top rounded" alt="...">
+                        <div class="card-body">
+                            <p class="card-title p-0 mx-0">Prescription Management</p>
+                            <ul class="card-text px-0">
+                                <li>Injection regimen therapy</li>
+                                <li>Intravenous tuld therapy</li>
+                                <li>Monitoring of blood sugar</li>
+                                <li>Monitoring of vital signs</li>
+                                <li>General health checkup
+                                and assessment</li>
+                                <li>Therapeutic counselling
+                                Supply and refill of prescribed
+                                drugs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row py-0 py-md-5 justify-content-center">
+                    <div class="col-md-4">
+                        <br><br><br>
+                        <h2 class="">Here are some of the feedback from our clients</h2>
+
+                        <br />
+                        <p>
+                            Great Experience with Union Care Consult. They were exactly what I was looking for.
+                            Their members of staff are so professional and courteous and they carry their clients
+                            along every step of the way. <span class="health fw-bold">&nbsp; - Kay</span>
+                        </p>
+                            <br><br>
+
+                        <div class="d-flex ">
+                            <a class="btn arrow" href="https://twitter.com/UnionCareCo">Visit our Blog <img src="img/arrow.svg" width="36" height="36"
+                                    alt="arrow-right" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-grid symptoms-grid">
+                        <div class="im img1 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/lady1.png" width="100%" height="200" class="img-fluid mx
+                                    -auto" alt="" />
+                                    <h6 class="symp">Omolola</h6>
+                                </div>
+                                <div class="flip-card-back p-2">
+                                    <h4>Omolola</h4>
+                                    <p>
+                                        Union care consult is an amazing platform.
+                                        They render care with ease and professionalism 
+                                    </p>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="im img2 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/man1.png" width="100%" height="200" class="img-fluid mx-auto" alt="" />
+                                    <h6 class="symp">Martin</h6>
+                                </div>
+                                <div class="flip-card-back p-2">
+                                    <h4>Martin</h4>
+                                    <p>
+                                        Union care consult is an amazing platform.
+                                        They render care with ease and professionalism 
+                                    </p>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="im img3 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/lady2.png" width="100%" height="200" class="img-fluid mx-auto" alt="" />
+                                    <h6 class="symp">Nicola</h6>
+                                </div>
+                                <div class="flip-card-back p-2">
+                                    <h4>Nicola</h4>
+                                    <p>
+                                        Union care consult is amazing.
+                                        Their staff are hardwoking and they render care with high level of professionalism 
+                                    </p>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="im img4 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/lady1.png" width="100%" height="200" class="img-fluid mx-auto" alt="" />
+                                    <h6 class="symp">Karen</h6>
+                                </div>
+                                <div class="flip-card-back p-2">
+                                    <h4>Karen</h4>
+                                    <p>
+                                        Union care consult is an amazing platform.
+                                        They render care with ease and professionalism 
+                                    </p>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="im img5 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="img/man1.png" width="100%" height="200" class="img-fluid mx-auto" alt="" />
+                                    <h6 class="symp">Barry</h6>
+                                </div>
+                                <div class="flip-card-back p-2">
+                                    <h4>Barry</h4>
+                                    <p>
+                                        Union care consult is an amazing platform.
+                                        They render care with ease and professionalism 
+                                    </p>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="onboarding">
+            <div class="container">
+                <div class="chart-titles text-center ">
+                    <h2>Onboarding with Us</h2>
+                    <div class="line2"></div>
+                    <p class="det">
+                        Onboarding with us are very easy in few steps.
+
+                    </p>
+                    <!-- <br> -->
+                </div>
+                <!-- <div class="row justify-content-center">
+                    <div class="im col-md-4 mx-3 shadow-sm" style="width: 12rem;">
+                        <img src="img/mask.svg" class="card-img-top mt-2 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-subtitle text-center pr">wear face mask</p>
+                        </div>
+                    </div>
+                    <div class="im col-md-4 mx-3 shadow-sm" style="width: 12rem;">
+                        <img src="img/wash.svg" class="card-img-top mt-2 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-subtitle text-center pr">wash hands</p>
+                        </div>
+                    </div>
+                    <div class="im col-md-4 mx-3 shadow-sm" style="width: 12rem;">
+                        <img src="img/kerchief.svg" class="card-img-top mt-2 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-subtitle text-center pr">use tissue</p>
+                        </div>
+                    </div>
+                    <div class="im col-md-4 mx-3 shadow-sm" style="width: 12rem;">
+                        <img src="img/distance.svg" class="card-img-top mt-2 rounded-circle" alt="...">
+                        <div class="card-body">
+                            <p class="card-subtitle text-center pr">social distance</p>
+                        </div>
+                    </div>
+
+
+                </div> -->
+                <div class="row pb-5 home">
+                    <figure class="d-none d-md-block col-md-6">
+                        <img class="img-fluid" src="img/care.svg" alt="" />
+                        <figcaption class="text-center"><span class="dot"></span> We care differently  <span
+                                class="dot"></span></figcaption>
+                    </figure>
+                    <div class="col-md-6 ps-5">
+                        <!-- <br><br> -->
+                        <br>
+                        <h2>Onboarding with <br>Union Care Consult</h2><br>
+                        <div>
+                            <details>
+                                <summary>Visit our site: unioncareconsult.com</summary>
+                                <p>For you to be seeing this, you are already on our site</p>
+                            </details>
+                            <details>
+                                <summary>Look for the "Book Services" button.</summary>
+                                <p>Scroll to the top. the "book service button is at the buttom right of your screen</p>
+                            </details>
+                            <details>
+                                <summary>Click on the button &amp; fill the form</summary>
+                                <p>A google form will appear, this is just to help us understand your needs or that of your loved one</p>
+                            </details>
+                            <details>
+                                <summary>Our Staff will take it up from there</summary>
+                                <p>A member of staff will contact you after we have received the form</p>
+                            </details>
+                        </div>
+                        <br>
+                        <a class="btn arrow" href="/union_care.pdf">Learn more <img src="img/arrow.svg" width="36" height="36"
+                                alt="arrow-right" /></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======= Footer ======= -->
+    <footer>
+        <section class="container" id="contact">
+                <div class="contact text-center col-sm-8 col-md-6">
+                    <h2>Would you like to speak<br>with one of our rep?</h2><br>
+                    <button type="button" class="btn arrow" data-bs-toggle="modal" data-bs-target="#formModal">
+                        Contact Us <img src="img/arrow.svg" width="36" height="36" alt="arrow-right" />
+                    </button>
+                </div>
+                <div class="row footer-links">
+                    <div class="col-md-4 col-sm-6">
+                        <p class="line-footer text-white">About</p>
+                        <ul class="links">
+                            <li><a href="#">Who we are</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#contact">Privacy policy </a></li>
+                            <li><a href="#services">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <p class="text-white line-footer">Contact</p>
+                        <ul class="links">
+                            <li>Elmwood Street, SR2 7JJ. <br>Sunderland, UK</li>
+                            <li><a href="https://wa.me/447784788267" title="Call (+44) 7784 788 267">(+44) 7784 788 267</a></li>
+                            <li>Ibrahim Ogunlana street. <br>Surulere, Lagos.</li>
+
+                            <li><a href="mailto:care@unioncareconsult.com" title="Send an email to care@unioncareconsult.com">care@unioncareconsult.com</a></li>
+                            <li><span class="bg text-dark fw-normal">&nbsp; RN 13892084&nbsp; </span>&nbsp; (England)</li>
+                            <li><span class="bg text-dark fw-normal">&nbsp; RN 1749747&nbsp; </span>&nbsp; (Nigeria)</li>
+                            <!-- <li><a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons">All icons created by Flaticon</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <h4 class="mb-4">Get our recent blog & <br>newsletter</h4>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control email" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <img src="img/arrow-white.svg" class="input-img" id="basic-addon2" width="48" height="48"
+                            alt="arrow-right" />
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="separator"></div>
+                <nav class="navbar navbar-expand-md navbar-light pb-3">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid logo" src="img/logo.png" alt="logo" width="150px" height="50px" />
+                    </a>
+
+                    <p class="mx-3 d-flex text-white-50 mt-4 moi d-block d-md-none">
+                        <a href="http://lollykrown.xyz" class="text-white-50 text-decoration-none">&copy;2022&nbsp;Lollykrown</a> 
+                    </p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2"
+                        aria-controls="navbarNav2">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end footer-nav" id="navbarNav2">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mt-2 mx-3">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item mt-2 mx-3">
+                                <a class="nav-link" href="#">Privacy & Legal</a>
+                            </li>
+                            <li class="nav-item mt-2 mx-3">
+                                <a class="nav-link " href="#">Partners</a>
+                            </li>
+                            <li class="nav-item mt-2 mx-3">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="mx-3 d-flex text-white-50 mt-4 moi d-none d-md-block">
+                        <a href="http://lollykrown.xyz" class="text-white-50 text-decoration-none">crafted&nbsp;by&nbsp;Lollykrown&nbsp;&copy;2022</a> 
+                    </p>
+                </nav>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+    <script src="union.js"></script>
+
+</body>
+
+</html>
